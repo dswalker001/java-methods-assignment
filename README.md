@@ -41,12 +41,8 @@ public class GradeReport {
         } else if (score >= 50) {
             return 'D';
         } else {
-            return 'F';
-        }
-    }
-
-    public static void displayPerformanceMessage(char grade) {
-        break;
+           .out.println("Excellent performance!");
+                break;
             case 'B':
                 System.out.println("Very good performance.");
                 break;
@@ -57,9 +53,18 @@ public class GradeReport {
                 System.out.println("Pass, but needs improvement.");
                 break;
             default:
-                System.out.println("Fail. Try harder next time.");
-        method coordinates lower-level helper methods, demonstrating how a high-level method manages program logic without performing calculations itself.
+                🔹 STEP 3: Fix the Explanation Text
 
+Make sure this text is **OUTSIDE the Java code block**:
+
+```md
+### Explanation
+The `executeGradeReport` method coordinates lower-level helper methods by:
+1. Validating the score
+2. Calculating the letter grade
+3. Displaying a performance message
+
+This demonstrates how a high-level method manages program logic without performing calculations itself.
 ---
 
 ## Question 2: calculateClassAverage (Method Overloading)
